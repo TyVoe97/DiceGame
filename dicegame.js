@@ -10,7 +10,7 @@ function rollDice1(){
     let diceTotal = d1 + d2;
     die1.innerHTML = d1;
     die2.innerHTML = d2;
-    status.innerHTML= "The number you got is =" + diceTotal+".";
+    status.innerHTML= "The number you got is = "  + diceTotal+".";
    
     
 }
@@ -24,7 +24,7 @@ function rollDice2(){
     let diceTotal = d3 + d4;
     die3.innerHTML = d3;
     die4.innerHTML = d4;
-    status.innerHTML= "The number you got is =" + diceTotal+".";
+    status.innerHTML= "The number you got is = "  + diceTotal+".";
 }
 
 function rollDice3(){
@@ -36,20 +36,10 @@ function rollDice3(){
     let diceTotal = d5 + d6;
     die5.innerHTML = d5;
     die6.innerHTML = d6;
-    status.innerHTML= "The number you got is =" + diceTotal+".";
+    status.innerHTML= "The number you got is = "  + diceTotal+".";
 
 }
        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-        
 console.log(rollDice1());
 console.log(rollDice2());
 console.log(rollDice3());
